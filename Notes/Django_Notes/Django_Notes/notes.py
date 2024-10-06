@@ -10,3 +10,4 @@
 # first step after this is to aware the main project about new app created
 # urls.py in main project refers to sub urls.py in the apps
 # control transfer is done to sub urls.py on the main urls.py file 
+# You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions. --> we dont write sql directly django orm takes care of that ,due migrations are compoleted using python manage.py migrate , making tables for database kinda
